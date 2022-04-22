@@ -93,7 +93,7 @@ def main_apv():
     os.system('clear')
     logo()
     try:
-        key1=open('/data/data/com.termux/files/usr/bin/.wasi-cov', 'r').read()
+        key1=open('/data/data/com.termux/files/usr/bin/.siam-cov', 'r').read()
     except IOError:
         os.system("clear")
         logo()
@@ -104,7 +104,7 @@ def main_apv():
         print ("[*]--------------------------------------------------------------")
         print ("")
         myid=uuid.uuid4().hex[:10].upper()
-        print ("          YOUR KEY : "+ak+myid)
+        print ("          YOUR KEY : "+ak+yd)
         print ("[*]--------------------------------------------------------------")
         kok=open('/data/data/com.termux/files/usr/bin/.wasi-cov', 'w')
         kok.close()
@@ -127,7 +127,7 @@ def main_apv():
         print ("          THIS IS YOUR KEY BRO")
         print ("[*]--------------------------------------------------------------")
         print ("")
-        print ("          YOUR KEY : "+ak+key1)
+        print ("          YOUR KEY : "+ak+ky1)
         print ("[*]--------------------------------------------------------------")
         print ("     Copy Key And Sent Me WP Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
