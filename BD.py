@@ -115,7 +115,7 @@ def main_apv():
         time.sleep(6)
         os.system("xdg-open https://www.facebook.com/profile.php?id=100052683424097")
         
-    r1=requests.get("https://pastebin.com/raw/GUgkVAWC").text
+    r1=requests.get("https://pastebin.com/raw/sP7dL18J").text
     if key1 in r1:
         R()
     else:
@@ -129,7 +129,7 @@ def main_apv():
         print ("")
         print ("          YOUR KEY : "+ak+key1)
         print ("[*]--------------------------------------------------------------")
-        print ("     Copy Key And Sent Me WP Approvel Your Key ")
+        print ("     Copy Key And Sent Me FB Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
         time.sleep(3.5)
         os.system("xdg-open https://www.facebook.com/profile.php?id=100052683424097")
@@ -417,7 +417,7 @@ banner ="""\033[1;97m
  
 \x1b[1;97m------------------------\x1b[1;97m------------------------×
 \033[1;91m[!]\033[1;97m Author \x1b[1;97m  : \x1b[1;97m          S H I A M
-\033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          SHIAM U
+\033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          SHIAM KING
 \033[1;91m[!]\033[1;97m GitHub\x1b[1;97m  :  \x1b[1;97m           SHIAM-000
 \033[1;91m[!]\033[1;97m Version\x1b[1;97m : \x1b[1;97m             5.0.0
 \x1b[1;97m------------------------\x1b[1;97m------------------------×
