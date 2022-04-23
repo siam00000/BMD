@@ -18,6 +18,7 @@ pip install bs4
 pip install futures 
 
 git clone https://github.com/siam00000/BMD.git
+
 ls
 
 cd BMD
